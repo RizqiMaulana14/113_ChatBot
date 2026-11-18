@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot AI - NVIDIA Nemotron 3 Ultra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Header -->
+        <header class="chat-header">
+            <h1 class="chat-title">Chatbot AI</h1>
+            <p class="chat-subtitle">NVIDIA Nemotron 3 Ultra</p>
+        </header>
+
+        <!-- Message List -->
+        <main class="chat-messages" id="chatMessages">
+            <div class="message bot">
+                <div class="message-bubble">
+                    Halo! Ada yang bisa saya bantu?
+                </div>
+            </div>
+        </main>
+
+        <!-- Input Area -->
+        <footer class="chat-input-area">
+            <form id="chatForm" class="chat-form">
+                <input 
+                    type="text" 
+                    id="messageInput" 
+                    placeholder="Ketik pesan..." 
+                    autocomplete="off"
+                    required
+                />
+                <button type="submit" id="sendBtn">Kirim</button>
+            </form>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
